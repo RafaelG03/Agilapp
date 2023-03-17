@@ -22,7 +22,7 @@ public class DatabaseManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        FirebaseDatabase.GetInstance(FirebaseApp.DefaultInstance).SetDatabaseUrl("https://agilapp-61259-default-rtdb.firebaseio.com/");
+        FirebaseDatabase.GetInstance("https://agilapp-61259-default-rtdb.firebaseio.com/");
         userID = SystemInfo.deviceUniqueIdentifier;
         reference = FirebaseDatabase.DefaultInstance.RootReference;
     }
