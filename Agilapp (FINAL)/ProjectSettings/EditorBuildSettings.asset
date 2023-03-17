@@ -18,4 +18,5 @@ EditorBuildSettings:
     path: Assets/Main App Page.unity
     guid: 4ff809fac5c69e44f9974ea550440a7f
   m_configObjects:
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 785512e30337e0d4abd987a213aca6e7, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 00dddc3a045789b45a648bc18ee78784, type: 2}
