@@ -1,45 +1,36 @@
 {
   "project_info": {
     "project_number": "924298436294",
+    "firebase_url": "https://agilapp-61259-default-rtdb.firebaseio.com",
     "project_id": "agilapp-61259",
     "storage_bucket": "agilapp-61259.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:924298436294:android:d96ca104b7643efc1401c7",
+        "mobilesdk_app_id": "1:924298436294:ios:bf5009a1255cb5721401c7",
         "android_client_info": {
           "package_name": "com.lemniscate.agilapp"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "924298436294-tn5vs5r2tq7bi6t9objsg9q2qkapsflm.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
       "api_key": [
         {
-          "current_key": "AIzaSyAYCXeCBBewuOAkYI4vyDlV05C_AWpKieo"
+          "current_key": "AIzaSyBLi7nRBfroZv6H7yDvI4JAK6lte1CmtUI"
         }
       ],
       "services": {
+        "analytics_service": {
+          "status": 0
+        },
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "924298436294-tn5vs5r2tq7bi6t9objsg9q2qkapsflm.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "924298436294-v51qa0hvv7sl8mnctgbapu3rb7074fuo.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.lemniscate.agilapp"
-              }
-            }
-          ]
+          "status": 1
         }
-      }
+      },
+      "oauth_client": [
+        {
+          "client_id": "924298436294-v51qa0hvv7sl8mnctgbapu3rb7074fuo.apps.googleusercontent.com"
+        }
+      ]
     }
   ],
   "configuration_version": "1"
