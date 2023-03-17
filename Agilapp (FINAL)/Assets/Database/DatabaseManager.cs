@@ -16,7 +16,10 @@ public class DatabaseManager : MonoBehaviour
     public InputField contact_number;
     public InputField birthday;
 
+    private string eaddress;
     private string userID;
+    private string usead;
+
     DatabaseReference reference;
 
     // Start is called before the first frame update
@@ -31,7 +34,9 @@ public class DatabaseManager : MonoBehaviour
     {
         User newUser = new User(nickname.text, pronoun.text, email_address.text, password.text, confirm_password.text, contact_number.text, int.Parse(birthday.text));
         string json = JsonUtility.ToJson(newUser);
+        eaddress = nickname.text;
+        string usead = eaddress + "." + userID;
 
-        reference.Child("users").Child(userID).SetRawJsonValueAsync(json);
+        reference.Child("users").Child(userID).Child(eaddress).SetRawJsonValueAsync(json);
     }
 }
