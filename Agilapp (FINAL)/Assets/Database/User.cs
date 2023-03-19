@@ -7,9 +7,11 @@ public class User
     public string password;
     public string confirm_password;
     public string contact_number;
-    public int birthday;
+    public string month;
+    public int day;
+    public int year;
 
-    public User(string nickname, string pronoun, string email_address, string password, string confirm_password, string contact_number, int birthday)
+    public User(string nickname, string pronoun, string email_address, string password, string confirm_password, string contact_number, string month, int day, int year)
     {
         this.nickname = nickname;
         this.pronoun = pronoun;
@@ -17,7 +19,9 @@ public class User
         this.password = password;
         this.confirm_password = confirm_password;
         this.contact_number = contact_number;
-        this.birthday = birthday;
+        this.month = month;
+        this.day = day;
+        this.year = year;
     }
 
 }
