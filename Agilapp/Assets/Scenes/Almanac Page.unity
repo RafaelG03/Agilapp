@@ -742,8 +742,8 @@ GameObject:
   - component: {fileID: 514645919}
   - component: {fileID: 514645921}
   - component: {fileID: 514645920}
-  - component: {fileID: 514645923}
   - component: {fileID: 514645922}
+  - component: {fileID: 514645923}
   m_Layer: 0
   m_Name: X
   m_TagString: Untagged
@@ -766,9 +766,9 @@ RectTransform:
   m_Father: {fileID: 1173006306}
   m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.91872686, y: 0.95356953}
-  m_AnchorMax: {x: 0.91872686, y: 0.95356953}
-  m_AnchoredPosition: {x: 1.4299927, y: 0}
+  m_AnchorMin: {x: 0.9242097, y: 0.96000004}
+  m_AnchorMax: {x: 0.9242097, y: 0.96000004}
+  m_AnchoredPosition: {x: -0.5, y: -0.099975586}
   m_SizeDelta: {x: 59.22998, y: 57.649994}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &514645920
@@ -1182,7 +1182,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1073872921}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.45, y: -31.46, z: 302.57272}
+  m_LocalPosition: {x: -7.7000003, y: -30.4, z: 302.57272}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
