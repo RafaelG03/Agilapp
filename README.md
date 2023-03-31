@@ -33,4 +33,4 @@ Step 3: Click the play button and test the application!
 III. Figma Prototype
 Furthermore, we also used Figma for the UI Prototype, you may access the prototype by using this link:
 
-Figma Prototype : https://bit.ly/42SAx08
+Figma Prototype : https://tinyurl.com/AgilappFigmaUI
