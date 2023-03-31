@@ -26,6 +26,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Shop Page.unity
     guid: e05e35e114f016248afa68b62480680a
+  - enabled: 1
+    path: Assets/Scenes/Friends_page.unity
+    guid: db07fa418b1b30646ba83165b218fca0
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 785512e30337e0d4abd987a213aca6e7, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 00dddc3a045789b45a648bc18ee78784, type: 2}
