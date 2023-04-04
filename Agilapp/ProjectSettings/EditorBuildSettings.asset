@@ -29,6 +29,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Friends_page.unity
     guid: db07fa418b1b30646ba83165b218fca0
+  - enabled: 1
+    path: Assets/Scenes/Settings scenes.unity
+    guid: 835cbde7a189ab54f9583ade72c1bbd5
+  - enabled: 1
+    path: Assets/Scenes/Map.unity
+    guid: 820b952499fb7ee4facadbf3a19f00fc
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 785512e30337e0d4abd987a213aca6e7, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 00dddc3a045789b45a648bc18ee78784, type: 2}
