@@ -553,7 +553,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 508303965}
-  m_Enabled: 0
+  m_Enabled: 1
 --- !u!20 &508303967
 Camera:
   m_ObjectHideFlags: 0
@@ -722,6 +722,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1362,7 +1374,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.51114863, y: 0.75068223}
   m_AnchorMax: {x: 0.51114863, y: 0.75068223}
-  m_AnchoredPosition: {x: -9.700001, y: -10.599976}
+  m_AnchoredPosition: {x: -9.699997, y: -10.600098}
   m_SizeDelta: {x: 2438.6, y: 173}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1026285340
@@ -1506,7 +1518,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.020507812, y: -0.023925781}
+  m_AnchoredPosition: {x: -0.020507812, y: -0.0234375}
   m_SizeDelta: {x: 0.046631, y: -0.050293}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1032496577
@@ -1657,8 +1669,8 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: FirebaseManager, Assembly-CSharp
-        m_MethodName: LoginButton
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

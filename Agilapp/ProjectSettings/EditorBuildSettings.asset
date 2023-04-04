@@ -35,6 +35,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Map.unity
     guid: 820b952499fb7ee4facadbf3a19f00fc
+  - enabled: 1
+    path: Assets/Scenes/Mindoro Main App.unity
+    guid: 8d6f78dd25a67b64ba83735923bf8f2e
+  - enabled: 1
+    path: Assets/Scenes/Achievements.unity
+    guid: 561a75a0f4746754a88a974e7d8b24a1
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 785512e30337e0d4abd987a213aca6e7, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 00dddc3a045789b45a648bc18ee78784, type: 2}
