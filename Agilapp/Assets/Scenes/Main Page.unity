@@ -232,7 +232,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1269101561}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Sounds, Assembly-CSharp
         m_MethodName: playThisEnter
         m_Mode: 1
@@ -618,7 +618,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1269101561}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Sounds, Assembly-CSharp
         m_MethodName: playThisEnter
         m_Mode: 1
@@ -989,7 +989,6 @@ GameObject:
   - component: {fileID: 1269101559}
   - component: {fileID: 1269101558}
   - component: {fileID: 1269101557}
-  - component: {fileID: 1269101561}
   - component: {fileID: 1269101560}
   m_Layer: 0
   m_Name: Main Page Camera
@@ -1080,21 +1079,6 @@ MonoBehaviour:
   UnitsSize: 10
   constraint: 1
   camera: {fileID: 1269101558}
---- !u!114 &1269101561
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1269101556}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 204be3e1a9ead4f47b1ff658744a27d7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  normal: {fileID: 0}
-  enter: {fileID: 0}
-  exit: {fileID: 0}
 --- !u!1 &1587252888
 GameObject:
   m_ObjectHideFlags: 0
